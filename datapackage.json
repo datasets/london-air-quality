@@ -1,0 +1,256 @@
+{
+  "bytes": 840175,
+  "count_of_rows": 3300,
+  "hash": "9ae8a886fa04e07a084fe4c0eb6809bf",
+  "licenses": [
+    {
+      "name": "OGL",
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "Open Government Licence"
+    }
+  ],
+  "name": "air-quality",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "monthly-averages",
+      "path": "data/monthly-averages.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Month",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Roadside Nitric Oxide (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Nitrogen Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Roadside Oxides of Nitrogen (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Ozone (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside PM10 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside PM2.5 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Sulphur Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background Nitric Oxide (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Nitrogen Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background Oxides of Nitrogen (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Ozone (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background PM10 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background PM2.5 Particulate (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Sulphur Dioxide (ug/m3)",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "time-of-day-per-month",
+      "path": "data/time-of-day-per-month.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Month (text)",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GMT",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Roadside Nitric Oxide (ug/m3)",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Nitrogen Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Roadside Oxides of Nitrogen (ug/m3)",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Ozone (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside PM10 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside PM2.5 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Roadside Sulphur Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background Nitric Oxide (ug/m3)",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Nitrogen Dioxide (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background Oxides of Nitrogen (ug/m3)",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Ozone (ug/m3)",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background PM10 Particulate (ug/m3)",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "London Mean Background PM2.5 Particulate (ug/m3)",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "London Mean Background Sulphur Dioxide (ug/m3)",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Air quality"
+}
