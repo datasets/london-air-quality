@@ -1,3 +1,5 @@
+<a href="https://datahub.io/core/london-air-quality"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+
 This dataset was scraped from [London data](https://data.london.gov.uk/) website.
 
 The data shows roadside and background average readings for Nitric Oxide, Nitrogen Dioxide, Oxides of Nitrogen, Ozone, Particulate Matter (PM10 and PM2.5), and Sulphur Dioxide. Measured in Micrograms per Cubic Meter of Air (ug/m3). The spreadsheet shows which Index level each reading falls in, and contains charts showing pollutant levels by time of day per month.
