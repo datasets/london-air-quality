@@ -18,10 +18,10 @@ To update the data run the process script locally:
 
 ```
 # Install dataflows
-pip install dataflows
+pip install -r scripts/requirements.txt
 
 # Run the script
-python london-air-quality.py
+python scripts/london-air-quality.py
 ```
 
 ### License
