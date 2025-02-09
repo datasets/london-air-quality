@@ -1,7 +1,7 @@
 {
-  "bytes": 840175,
-  "count_of_rows": 3300,
-  "hash": "9ae8a886fa04e07a084fe4c0eb6809bf",
+  "bytes": 896290,
+  "count_of_rows": 3475,
+  "hash": "18547828fb30a0de55bd7afe82bdd0e5",
   "licenses": [
     {
       "name": "OGL",
@@ -13,6 +13,7 @@
   "profile": "data-package",
   "resources": [
     {
+      "bytes": 36768,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -24,9 +25,9 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "5d55c1ff4fee530bd6c50dea861974f3",
       "name": "monthly-averages",
-      "path": "data/monthly-averages.csv",
+      "path": "data\\monthly-averages.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -130,6 +131,7 @@
       }
     },
     {
+      "bytes": 859522,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -141,9 +143,9 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "ab77364af1fae3df0efb8b28db662bcd",
       "name": "time-of-day-per-month",
-      "path": "data/time-of-day-per-month.csv",
+      "path": "data\\time-of-day-per-month.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -160,7 +162,7 @@
           {
             "format": "default",
             "name": "London Mean Roadside Nitric Oxide (ug/m3)",
-            "type": "string"
+            "type": "any"
           },
           {
             "decimalChar": ".",
@@ -172,7 +174,7 @@
           {
             "format": "default",
             "name": "London Mean Roadside Oxides of Nitrogen (ug/m3)",
-            "type": "string"
+            "type": "any"
           },
           {
             "decimalChar": ".",
@@ -205,7 +207,7 @@
           {
             "format": "default",
             "name": "London Mean Background Nitric Oxide (ug/m3)",
-            "type": "string"
+            "type": "any"
           },
           {
             "decimalChar": ".",
@@ -217,7 +219,7 @@
           {
             "format": "default",
             "name": "London Mean Background Oxides of Nitrogen (ug/m3)",
-            "type": "string"
+            "type": "any"
           },
           {
             "decimalChar": ".",
